@@ -4,12 +4,16 @@
 }
 
 body{
-    background: gainsboro;
+    background: rgb(238, 235, 235);
 }
 
 header{
-    background: url(../images/donation0.jpg);
-    
+    min-width: 13050px;
+    min-height: 670px;
+
+    background: url(images/donation0.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .banner{
