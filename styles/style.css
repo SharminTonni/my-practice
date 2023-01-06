@@ -8,13 +8,21 @@ body{
 }
 
 header{
-    min-width: 13050px;
+    min-width: 1350px;
     min-height: 670px;
 
-    background: url(images/donation0.jpg);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-}
+    background: url(../images/donation10.jpg);
+ }
+   
+
+ /* .banner{
+    position: absolute;
+width: 1440px;
+height: 669px;
+left: 0px;
+top: -9px;
+background: url('/images/donation11.jpg');
+ } */
 
 .banner{
     padding: 300px 400px 300px 400px;
@@ -30,6 +38,7 @@ header{
 }
 
 .banner-dis{
+    margin-top: 20px;
     font-size: 18px;
     color: blue;
 
@@ -37,6 +46,7 @@ header{
 
 .btn-primary{
     margin-left: 300px;
+    margin-top: 50px;
     padding: 10px;
     background-color: tomato;
     color: black;
@@ -75,7 +85,7 @@ header{
 .money-list > li{
     list-style: none;
     margin-left: 5px;
-    background: rgb(119, 118, 118);
+    background: rgb(157, 155, 155);
     padding: 15px;
     border-radius: 15px;
 }
