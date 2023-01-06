@@ -11,7 +11,10 @@ header{
     min-width: 1350px;
     min-height: 670px;
 
-    background: url(../images/donation10.jpg);
+    background: url(../images/donation10.jpg), rgba(210, 197, 197, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
  }
    
 
@@ -85,13 +88,13 @@ background: url('/images/donation11.jpg');
 .money-list > li{
     list-style: none;
     margin-left: 5px;
-    background: rgb(157, 155, 155);
+    background: rgb(184, 175, 175);
     padding: 15px;
     border-radius: 15px;
 }
 
-.tk{
-    background: orangered;
+.money-list .taka{
+    background-color: orangered;
 }
 
 .donate-last-dis{
