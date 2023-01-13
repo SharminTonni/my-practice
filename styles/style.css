@@ -333,4 +333,161 @@ background: url('/images/donation11.jpg');
     padding-bottom: 60px;
 }
 
+.hide{
+    display: none;
+}
+
+/* media queries */
+
+@media screen and (max-width: 576px){
+    
+    header{
+       background: none;
+       min-height: 100%;
+       min-width: 100%;
+    }
+
+    .banner{
+        text-align: left;
+        padding: 5px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .banner-title{
+        margin-left: 0;
+    }
+
+   
+
+    .btn-primary, .btn-primary2, .btn-primary3, .btn-primary4{
+        margin-left: 100px;
+        margin-top: 8px;
+    }
+
+    .btn-primary3, .btn-primary4, .btn-primary5{
+        margin-bottom: 5px;
+    }
+
+    /* donate-section */
+
+    .donate{
+        margin: 15px;
+        padding: 20px;
+        height: 400px;
+    }
+.donate-title{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.donate-dis{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.money-list{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.donate-last-dis, .section6-dis{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.btn-primary2{
+    margin-bottom: 10px;
+}
+
+hr{
+    display: none;
+}
+
+.section2-dis, .section2-title{
+    margin-left: 20px;
+}
+
+.section2-title{
+    font-size: 18px;
+}
+
+.section2-dis, .section5-dis{
+    margin-bottom: 20px;
+}
+
+/* section3  */
+.section3{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.donation-plan{
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.donation-plan > li{
+    padding: 10px;
+}
+
+.donation1-title, .donation2-title, .donation3-title, .section5-title, .section6-title{
+    font-size: 18px;
+}
+
+.donation-plan img{
+    display: none;
+}
+
+.section4, .section5{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.section4{
+    padding: 5px;
+}
+
+.section4-img{
+    margin-left: 0;
+}
+
+.section5-write, .section6-write{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.section5-img{
+    display: none;
+}
+
+.section6-write{
+    margin-top: 10px;
+}
+
+.section6-title{
+    margin-left: 5px;
+}
+
+.section6-dis{
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.input{
+    margin: 0;
+    padding: 2px;
+}
+
+.input .email, .footer-title, .footer-dis{
+    margin-left: 0;
+}
+
+.footer-title, .footer-dis{
+    padding-top: 5px;
+}
+
+}
+
+
 
